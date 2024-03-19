@@ -9,6 +9,7 @@ async function checkWeather(city) {
 
        if(response.status==404)
        {
+        document.querySelector(".description").style.display="none";
         document.querySelector(".error").style.display="block";
         document.querySelector(".weather").style.display="none";
        }
@@ -45,6 +46,7 @@ async function checkWeather(city) {
 
         document.querySelector(".error").style.display="none";
         document.querySelector(".weather").style.display="block";
+        document.querySelector(".description").style.display="none";
     }
 }
 

@@ -13,7 +13,7 @@ body
 {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(#47e26c,#05ffea,#5b548a);
+    background: linear-gradient(#ebe665,#56d0e8,#7a54ee);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -101,4 +101,41 @@ body
     margin-left: 10px;
     font-size: 20px;
     display: none;
+}
+.description
+{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        margin: 20px auto;
+        padding: 30px 25px;
+    }
+
+    .weather-icon {
+        width: 130px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details,
+    .col {
+        flex-direction: column;
+    }
+
+    .col img {
+        margin-bottom: 10px;
+    }
 }
