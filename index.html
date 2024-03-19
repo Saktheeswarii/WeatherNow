@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="script.js" defer></script>
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name" spellcheck="false">
             <button><img src="images/search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <h3>Invalid city name</h3>
         </div>
         <div class="weather">
             <img src="images/rain.png" class="weather-icon" alt="">
@@ -28,7 +32,7 @@
                     <img src="images/wind.png" alt="">
                     <div>
                         <p class="wind">15 km/h</p>
-                        <p>Wind Spped</p>
+                        <p>Wind Speed</p>
                     </div>
                 </div>
             </div>
