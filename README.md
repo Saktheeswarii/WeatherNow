@@ -19,5 +19,5 @@ WeatherNow is a web-based application that provides real-time weather informatio
 * OpenWeatherMap API (for weather data)
 * Google Fonts (for typography)
 
-# Conclusion 
-WeatherNow is a user-friendly web application designed to provide real-time weather information for cities worldwide. With its intuitive interface and reliable data sources, users can quickly access temperature, humidity, and wind speed details for any location of interest. Whether you're planning a trip or simply staying informed about the weather in your area, WeatherNow offers a convenient solution. 
+# Checkout the website here:
+https://saktheeswarii.github.io/WeatherNow/
