@@ -19,5 +19,5 @@ WeatherNow is a web-based application that provides real-time weather informatio
 * OpenWeatherMap API (for weather data)
 * Google Fonts (for typography)
 
-# Checkout the website here:
+# Checkout my work here:
 https://saktheeswarii.github.io/WeatherNow/
